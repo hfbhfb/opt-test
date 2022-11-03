@@ -1,4 +1,4 @@
-FROM scratch
+FROM busybox:uclibc
 WORKDIR /
 COPY mygoapp /
 CMD ["/mygoapp"]
